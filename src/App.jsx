@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './components/footer'
+// import Footer from './components/footer'
 import Header from './components/header'
 import MainSection from "./components/main"
 import './App.css'
@@ -30,7 +30,7 @@ function App() {
         <div>
           <Header />
           <MainSection />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </WagmiConfig>
       <Web3Modal projectId={ projectId } ethereumClient={ ethereumClient } />
