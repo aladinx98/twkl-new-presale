@@ -256,9 +256,8 @@ function MainSection() {
                 <h1 class="text-sm font-semibold mb-6 text-gray-500 text-center">Total Fund Raised: {data.totalFundRaised} / $100000</h1>
 
                 <div class="m-1 flex flex-col lg:flex-row items-center justify-between">
-                  <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Tier1 $0.012</button>
-                  <button type="button" class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Tier2 $0.024</button>
-                  <button type="button" class="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Tier3 $0.036</button>
+                  <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">Current Price $0.012</button>
+                  <button type="button" class="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">Next Stage Price $0.024</button>
                 </div>
 
                 <div>
@@ -368,7 +367,7 @@ function MainSection() {
                   </div>
                 </div>
                 <div class="mt-4 text-sm text-gray-600 text-center">
-                  <p> <a href="#" class="text-black hover:underline">How to buy HRN</a>
+                  <p> <a href="#" class="text-black hover:underline">How to buy TWKL</a>
                   </p>
                 </div>
               </div>
