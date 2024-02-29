@@ -19,7 +19,7 @@ const isValidNumber = isValid(numberRegex);
 
 function MainSection() {
   const { isConnected, address } = useAccount();
-  const cAddress = "0x8d66126A9840Af0E2C4AD19076BEeA23cD7c0258";
+  const cAddress = "0x10fF79cbe80dE7299faCF4f900E46d9261D7cC0D";
   const usdtAddress = "0x55d398326f99059fF775485246999027B3197955";
 
   const [data, setData] = useState({
@@ -104,7 +104,7 @@ function MainSection() {
       const transaction = await prepareWriteContract({
         address: cAddress,
         abi: PresaleAbi,
-        functionName: "buyBNGC",
+        functionName: "buyTWKL",
         value: bnbValue,
         from: address,
       });
@@ -252,8 +252,8 @@ function MainSection() {
 
             <div class="w-full bg-gray-100 lg:w-1/2 flex items-center justify-center">
               <div class="max-w-md w-full p-6">
-                <h1 class="text-4xl font-semibold mb-6 text-black text-center">Buy Tawakkal Coin</h1>
-                <h1 class="text-sm font-semibold mb-6 text-gray-500 text-center">Total Fund Raised: {data.totalFundRaised} / $100000</h1>
+                <h1 class="text-4xl font-semibold mb-6 text-black text-center animate-charcter">Buy Tawakkal Coin</h1>
+                {/* <h1 class="text-sm font-semibold mb-6 text-gray-500 text-center">Total Fund Raised: {data.totalFundRaised} / $100000</h1> */}
 
                 <div class="m-1 flex flex-col lg:flex-row items-center justify-between">
                   <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-4 py-2.5 text-center me-2 mb-2">Current Price $0.012</button>

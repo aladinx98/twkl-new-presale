@@ -7,7 +7,7 @@ function Header() {
   
 
   return (
-    <div className="header">
+    <div className="header ">
       <img src={Logo} alt="logo" />
       <div>
       <Web3Button />
